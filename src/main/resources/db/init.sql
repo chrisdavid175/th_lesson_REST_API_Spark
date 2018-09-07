@@ -11,5 +11,3 @@ CREATE TABLE IF NOT EXISTS reviews (
    comment VARCHAR,
    FOREIGN KEY(course_id) REFERENCES public.courses(id)
 );
-
-SELECT * FROM courses;
